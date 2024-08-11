@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --padding-inline-section: 20px;
+    --primary-text-color: whitesmoke;
+    --accent-color: #00abf0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(to bottom right, #403F44, #1E1B32);
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+/* nav */
+
+.container {
+
+    max-width: 1180px;
+    margin-inline: auto;
+    padding-bottom: 5px;
+    font-weight: 800;
+}
+
+.logo {
+    padding-left: 8px;
+}
+
+.flex {
+    padding-top: 5px;
+    padding-right: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.hover-link {
+    color: var(--primary-text-color);
+    transition: 0.2s ease-out;
+}
+
+.hover-link:hover {
+    color: var(--accent-color);
+}
+
+.main-nav {
+    justify-content: space-between;
+}
+
+.nav-link {
+    flex-basis: 730px;
+}
+
+.nav-link ul {
+    justify-content: end;
+    gap: 40px;
+}
+
+
+
+/* header */
+
+header {
+    color: var(--primary-text-color);
+    padding: 110px;
+    text-align: left;
+    font-weight: 900;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+span {
+    font-size: 90px;
+}
+
+.himg {
+    position: absolute;
+    right: 135px;
+    top: 175px;
+}
+
+
+/* about */
+
+#about {
+    color: var(--primary-text-color);
+    padding: 20px;
+    text-align: center;
+}
+
+.my {
+    border-radius: 50%;
+    padding-left: 50px;
+    padding-right: 35px;
+}
+
+h2 {
+    font-weight: 800;
+    font-size: 1.75rem;
+}
+
+
+/* Skills */
+
+#skills {
+    color: var(--primary-text-color);
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+
+.skill-container ul {
+    gap: 50px;
+    justify-content: center;
+}
+
+.S {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.S1,
+.S2,
+.S3,
+.S4,
+.S5 {
+    padding: 5px;
+    border-radius: 10px;
+    margin: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 1.5rem;
+    box-shadow: 0px 1px 10px var(--accent-color);
+}
+
+.hover {
+    color: var(--primary-text-color);
+}
+
+
+/* projects */
+
+#projects {
+    color: var(--primary-text-color);
+    padding: 20px;
+}
+
+.P {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.pro-container ul {
+    gap: 20px;
+    justify-content: center;
+}
+
+.p1img {
+    display: block;
+    border-radius: 5%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.P1 {
+
+    margin-left: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h3 {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.P2 {
+
+    margin-left: 40px;
+    margin-right: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.p2img {
+    display: block;
+    border-radius: 5%;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+/* Resume */
+
+#resume {
+    color: var(--primary-text-color);
+    padding-top: 40px;
+    text-align: center;
+}
+
+.hover:active {
+    color: var(--primary-text-color);
+}
+
+.hover:hover {
+    color: var(--accent-color);
+}
+
+.R {
+    padding-bottom: 8px;
+}
+
+
+
+/* Contact */
+
+#contact {
+    color: var(--primary-text-color);
+    padding-top: 55px;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.Contact-links a {
+    color: var(--primary-text-color)
+}
+
+.Contact-links {
+    font-weight: 800;
+}
+
+.C {
+    padding-bottom: 10px;
+}
+
+/* Footer */
+
+footer {
+    color: var(--primary-text-color);
+    padding: 20px;
+    text-align: center;
+}
